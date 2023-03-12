@@ -13,7 +13,9 @@
  * Your results should not contain any duplicate titles.
  */
 
-/*Based on the information provided in issue #303, I understand that the solution should account for both upper and lowercase 'F'. Therefore, to make the query case-insensitive, I am using "ILIKE". If the query should only focus on matching the uppercase 'F', then "LIKE" could be used instead.*/
+/*Based on the information provided in issue #303, I understand that the solution should account for 
+both upper and lowercase 'F'. Therefore, to make the query case-insensitive, I am using "ILIKE". 
+If the query should only focus on matching the uppercase 'F', then "LIKE" could be used instead.*/
 
 
 SELECT DISTINCT title
