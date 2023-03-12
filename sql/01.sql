@@ -22,7 +22,8 @@ LEFT JOIN (
   SELECT DISTINCT film_id
   FROM inventory
     JOIN rental  using (inventory_id)
-    JOIN customer using (customer_id)                                                 JOIN address using (address_id)
+    JOIN customer using (customer_id)                                                 
+    JOIN address using (address_id)
     JOIN city using (city_id)
     JOIN country using (country_id)
     WHERE country.country ILIKE '%F%' 
