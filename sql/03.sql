@@ -22,4 +22,4 @@ actor_id not in (
 where category.name = 'Horror'
 ) 
 
-order by last_name, first_name;
+order by first_name, last_name;
